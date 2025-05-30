@@ -50,6 +50,16 @@ def build_advice_prompt(user_input: str) -> str:
 st.markdown(
     """
     <style>
+    @font-face {
+            font-family: 'GmarketSansMedium';
+            src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        html, body {
+        font-family: 'GmarketSansMedium', 'Nanum Gothic', 'Malgun Gothic', 'Apple SD Gothic Neo', Arial, sans-serif !important;
+        }
         .main {
             background-color: #fff9f5;
             color: #4b3b2b;
